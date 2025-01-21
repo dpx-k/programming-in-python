@@ -25,7 +25,6 @@ print(total_sum, total_difference)
 multiplication(a,b) 
 print(product)
 
-print(total)
+# print(total)
 # NameError: name 'total' is not defined, local variable cannot be accessed in the main program
-
 

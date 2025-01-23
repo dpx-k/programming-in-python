@@ -27,4 +27,3 @@ print(product)
 
 # print(total)
 # NameError: name 'total' is not defined, local variable cannot be accessed in the main program
-

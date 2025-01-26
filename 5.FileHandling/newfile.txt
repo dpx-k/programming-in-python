@@ -1,0 +1,3 @@
+Hello there!This line oneThis is line twoThis is line three
+append mode adds a line at the end of the file instead of overwriting it 
+The cursor starts at the end of the text file

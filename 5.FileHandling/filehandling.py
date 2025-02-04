@@ -1,4 +1,4 @@
-file = open("test.txt", mode = 'r')
+file = open("test.txt", mode = 'r') # open the file 
 
 data = file.readline() # reads a single line from the text 
 full_text = file.read()
@@ -6,4 +6,4 @@ full_text = file.read()
 print(data, '\n')
 print(full_text)
 
-file.close()
+file.close() # close the file 

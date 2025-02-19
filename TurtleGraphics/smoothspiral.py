@@ -8,9 +8,10 @@ angle = 3
 
 june.speed(0)
 
-# june.penup()
+june.penup()
 
-for _ in range(1000):
+for _ in range(5000):
+    june.stamp()
     june.forward(distance)
     june.left(angle)
     distance += 0.01

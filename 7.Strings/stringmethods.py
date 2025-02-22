@@ -27,3 +27,7 @@ print(sentence.replace('Python', 'Java')) # as strings are immutable, the value 
 
 updated_sentence = sentence.replace("Python", "Java")
 print(updated_sentence)
+
+#you can check if a specified string is present or not using the 'in' operator 
+print('Python' in sentence) # returns a boolean 'true' value
+print('Python' not in sentence) # returns false

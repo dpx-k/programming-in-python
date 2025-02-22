@@ -17,3 +17,13 @@ print(sentence.title())
 
 #find the number of instances of a specified pattern 
 print(sentence.count('P'))
+
+#find the index of the specified character 
+print(sentence.find('P'))  #if there is recurring characters, it'll return the index of the first found char
+print(sentence.find('Python')) # if you try to pass a full string it again returns the index of the first char of the passed string 
+
+# replace a part of string 
+print(sentence.replace('Python', 'Java')) # as strings are immutable, the value cannnot be updated but can be stored in a new string 
+
+updated_sentence = sentence.replace("Python", "Java")
+print(updated_sentence)

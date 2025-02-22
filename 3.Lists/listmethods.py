@@ -1,4 +1,5 @@
 num_list = [10,20,30,40,50,60,70,80,90,100]
+sample = [911, 100, 101, 108, 234]
 
 '''Adding elements to a list'''
 
@@ -6,12 +7,17 @@ num_list = [10,20,30,40,50,60,70,80,90,100]
 num_list.append(110)
 num_list.append(69)
 
-#extend(iterabel) - adds elements of an iterable(ex: tuple or anotherl list) to the end of the list 
+#extend(iterabel) - adds elements of an iterable(ex: tuple or anotherl list) to the end of the list, can also concatenate lists into one long list 
 num_list.extend([1,2,3])
-
+print(num_list)
+num_list.extend(sample)
+print(num_list)
 #insert(index, item) - inserts an element at the specified index
 num_list.insert(9, 96)
 print(num_list)
+
+# you can replace an element by specifying the index and using the assignment operator '='. note that it replaces, does not add 
+num_list[3] = 28
 
 '''Deleting Elements from a list'''
 

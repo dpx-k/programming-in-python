@@ -26,3 +26,5 @@ for num in list1:                       # Print each element in a newline, use a
     
 # the len() function can be used to get the length of any iterable, it can be used for lists too 
 print(len(list1))
+
+# list slicing works same as string slicing, so refer the strings folder

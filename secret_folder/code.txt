@@ -1,0 +1,7 @@
+nothing serious
+
+this text file is created to play around with git branch (commands)
+
+this text field was created in the master branch
+
+this line was added in the feature1 branch
